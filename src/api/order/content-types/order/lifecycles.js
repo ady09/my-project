@@ -5,6 +5,6 @@ module.exports = {
     afterCreate(result) {
       
   
-      console.log("Order Confirmed")
+    console.log("Order Confirmed", result);
     },
   };

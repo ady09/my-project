@@ -46,5 +46,11 @@
       "target": "api::product.product",
       "mappedBy": "order"
     }
+  },
+  "lifecycle": {
+    "afterCreate": "order.lifecycles.afterCreate"
   }
 }
+
+
+
